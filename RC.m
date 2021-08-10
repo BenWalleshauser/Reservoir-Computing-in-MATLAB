@@ -31,7 +31,7 @@ density=0.05;
 beta = 0.01;
 
 r_state = zeros(dim_reservoir,1);                          
-A = generate_reservoir_Basic(dim_reservoir, density);      
+A = generate_reservoir(dim_reservoir, density);      
 W_in = 2*sigma*(rand(dim_reservoir, 3) - 0.5);            
 W_out = zeros(3,dim_reservoir);                          
 R = zeros(dim_reservoir, length(t));
