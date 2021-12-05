@@ -25,7 +25,7 @@ IC_validate = [10.1 10 10];
 % beta = Regularization parameter
 
 dim_system=3;                   
-dim_reservoir=300;    
+dim_reservoir=500;    
 sigma=0.1;                                          
 density=0.05;
 beta = 0.01;
