@@ -1,7 +1,7 @@
 function out = generate_reservoir(dim_reservoir,density)
 
 %Creating matrix of random weights with a set density. The random weights
-%are then scaled by the spectral radius
+%are then scaled such that the spectral radius is 1.
 
 array = rand(dim_reservoir,dim_reservoir) < density;    
 ran = 2*(rand(dim_reservoir,dim_reservoir)-0.5);
