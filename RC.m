@@ -1,4 +1,4 @@
-%bwaaaaaaaa
+%BW
 %8/5/2021
 
 %% Generating Data
